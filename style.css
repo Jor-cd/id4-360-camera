@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-360-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-inline: 300px;
+}
+
+.parent-element {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border: 1px solid greenyellow;
+}
+
+.container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.vzg {
+    width: 84px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.element-hover-1 {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+span:first-of-type:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6front.png?15441cd3f1bbced835125ca4467b8833");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+} 
+
+.element-hover-2:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToRightEndFront.png?24a270ca9c1453b2a1e7c374bf777f11");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-3:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToRightEnd.png?9a7c4854bc82002a98ed53d4879124cf");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-4:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6Middle.png?7cc167eb95cbf27f6cb57dd9dd96d8dc");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-5:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToRightMiddle.png?44f6207965509bf3459facf05a279b32");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-6:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6back.png?a97b9cb076ac30c1531fd0861b8a0fea");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-7:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToLeftEndBack.png?3fff8b21b8328c183ad5f65a174feada");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-8:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToLeftEnd.png?8238b380236a252c8ad6e08a63b49000");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-9:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6MiddleLeft.png?5048752a1777eff9ab69b97a30ee54aa");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-10:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToLeftMiddle.png?403648df20a68acadf6477050acb544b");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+.element-hover-11:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6ToLeft.png?f9d738ee3558edb8bf87b53363f279e3");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.element-hover-12:hover + .container {
+    display: block;
+    background-image: url("https://www.ecomotors.am/images/id6front.png?15441cd3f1bbced835125ca4467b8833");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 4;
+}
